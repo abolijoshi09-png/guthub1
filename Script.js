@@ -4,8 +4,9 @@ const imageGrid = document.getElementById("image-grid");
 const statusText = document.getElementById("status");
 const button = document.getElementById("generate-btn");
 
-// ⚠️ DEMO ONLY — do NOT expose real API keys in production
-const API_KEY = "YOUR_API_KEY_HERE";
+
+const API_KEY = "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";
+";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -62,3 +63,4 @@ function displayImage(url) {
 
   imageGrid.prepend(card);
 }
+
